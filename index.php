@@ -18,7 +18,7 @@
 </head>
 <body>
 <form action="index.php" method="get">
-badWord: <input type="text" name="badWord"><br>
+Inserisci la parola da censurare: <input type="text" name="badWord"><br>
 <input type="submit">
 </form>
   <p>Paragrafo originale: <?= $paragraph; ?></p>
