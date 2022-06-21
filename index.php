@@ -17,6 +17,10 @@
   <title>BadWord</title>
 </head>
 <body>
+<form action="index.php" method="get">
+badWord: <input type="text" name="badWord"><br>
+<input type="submit">
+</form>
   <p>Paragrafo originale: <?= $paragraph; ?></p>
   <p>Lunghezza paragrafo originale: <?= strlen($paragraph); ?></p>
   <p>Paragrafo censurato: <?= $paragraphWithCensorship; ?></p>
